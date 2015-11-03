@@ -1,8 +1,8 @@
 # Android-Notes
 
-1.GridView Onclick无效 加这三句话就可以了
+1.解决listview嵌套gridview后始终相应的是gridview的onclick
 ```
 gv.setClickable(false);
-gvMember.setPressed(false);
+gv.setPressed(false);
 gv.setEnabled(false);
 ```
