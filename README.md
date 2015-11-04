@@ -13,26 +13,22 @@ gv.setEnabled(false);
         android:id="@+id/sv"  
         android:layout_width="match_parent"  
         android:layout_height="match_parent" >  
-  
         <LinearLayout  
             android:layout_width="match_parent"  
             android:layout_height="match_parent"  
             android:orientation="vertical"
             android:focusable="true"  
-            android:focusableInTouchMode="true"      >  
+            android:focusableInTouchMode="true" >  
             
-<!-- 上面这两行是控制scrollview   
+<!--这两行是控制scrollview   不自动的关键！
             android:focusable="true"  
-            android:focusableInTouchMode="true"     
-不自动的关键！ !-->  
+            android:focusableInTouchMode="true"  !-->  
                 <ListView  
                     android:id="@+id/lv"  
                     android:layout_marginTop="5dp"  
                     android:layout_width="match_parent"  
                     android:layout_height="match_parent">  
-  
                 </ListView>  
-  
         </LinearLayout>  
 </ScrollView>  
 ```
